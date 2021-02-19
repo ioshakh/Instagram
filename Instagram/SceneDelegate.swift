@@ -24,12 +24,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func callHomeController() {
         let cv = HomeViewController(nibName: "HomeViewController", bundle: nil)
-        
+        let nc = UINavigationController(rootViewController: cv)
         if self.window == nil {
             self.window = UIWindow(frame: UIScreen.main.bounds)
         }
         
-        self.window?.rootViewController = cv
+        self.window?.rootViewController = nc
         self.window?.makeKeyAndVisible()
     }
     

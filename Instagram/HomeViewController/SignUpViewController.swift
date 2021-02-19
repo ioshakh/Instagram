@@ -8,12 +8,12 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: ParentViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
 
 
@@ -22,6 +22,7 @@ class SignUpViewController: UIViewController {
     
     
     @IBAction func SignUp(_ sender: Any) {
+       
     }
     
 

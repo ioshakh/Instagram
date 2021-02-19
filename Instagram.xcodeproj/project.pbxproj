@@ -19,6 +19,9 @@
 		3C0C9D9C25DEE2A500D212A8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C9D9A25DEE2A500D212A8 /* SignUpViewController.swift */; };
 		3C0C9D9D25DEE2A500D212A8 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C9D9B25DEE2A500D212A8 /* SignUpViewController.xib */; };
 		3C0C9DA025DF04D300D212A8 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C9D9F25DF04D300D212A8 /* ParentViewController.swift */; };
+		3C0C9DA425DFF9C900D212A8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C9DA325DFF9C900D212A8 /* Post.swift */; };
+		3C0C9DA825E0000600D212A8 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C9DA625E0000600D212A8 /* HomeTableViewCell.swift */; };
+		3C0C9DA925E0000600D212A8 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C9DA725E0000600D212A8 /* HomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		3C0C9D9A25DEE2A500D212A8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3C0C9D9B25DEE2A500D212A8 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		3C0C9D9F25DF04D300D212A8 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		3C0C9DA325DFF9C900D212A8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3C0C9DA625E0000600D212A8 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		3C0C9DA725E0000600D212A8 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,8 @@
 		3C0C9D9125DEE22200D212A8 /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
+				3C0C9DA525DFFFDD00D212A8 /* Cell */,
+				3C0C9DA225DFF9A700D212A8 /* Model */,
 				3C0C9D9F25DF04D300D212A8 /* ParentViewController.swift */,
 				3C0C9D9225DEE24000D212A8 /* HomeViewController.swift */,
 				3C0C9D9325DEE24000D212A8 /* HomeViewController.xib */,
@@ -99,6 +107,23 @@
 				3C0C9D8725DEE20600D212A8 /* LaunchScreen.storyboard */,
 			);
 			path = Imp;
+			sourceTree = "<group>";
+		};
+		3C0C9DA225DFF9A700D212A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C0C9DA325DFF9C900D212A8 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C0C9DA525DFFFDD00D212A8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3C0C9DA625E0000600D212A8 /* HomeTableViewCell.swift */,
+				3C0C9DA725E0000600D212A8 /* HomeTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0C9D9925DEE28E00D212A8 /* SignInViewController.xib in Resources */,
+				3C0C9DA925E0000600D212A8 /* HomeTableViewCell.xib in Resources */,
 				3C0C9D8925DEE20600D212A8 /* LaunchScreen.storyboard in Resources */,
 				3C0C9D8625DEE20600D212A8 /* Assets.xcassets in Resources */,
 				3C0C9D8425DEE20000D212A8 /* Main.storyboard in Resources */,
@@ -180,6 +206,8 @@
 				3C0C9DA025DF04D300D212A8 /* ParentViewController.swift in Sources */,
 				3C0C9D7F25DEE20000D212A8 /* SceneDelegate.swift in Sources */,
 				3C0C9D9825DEE28E00D212A8 /* SignInViewController.swift in Sources */,
+				3C0C9DA425DFF9C900D212A8 /* Post.swift in Sources */,
+				3C0C9DA825E0000600D212A8 /* HomeTableViewCell.swift in Sources */,
 				3C0C9D9425DEE24000D212A8 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

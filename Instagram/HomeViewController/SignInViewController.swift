@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class SignInViewController: ParentViewController {
     
     
     
@@ -28,7 +28,7 @@ class SignInViewController: UIViewController {
     //Mark : - Action
     
     @IBAction func LogIN(_ sender: Any) {
-        
+        scenedelegate().callHomeController()
     }
     
     
